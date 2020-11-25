@@ -7,7 +7,9 @@
 
     <div class="container">
         <div class="d-flex">
-
+            <div></div>
+            <div></div>
+            <div></div>
         </div>
     </div>
 </section>
