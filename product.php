@@ -1,39 +1,34 @@
 <?php include('inc/header.php'); ?>
 
-
-<section class="showcase">
-    <div class="container px-0">
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./img/pexels-mister-mister-3490360.jpg" class="img-b first" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./img/pexels-erik-mclean-4061395.jpg" class="img-b" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./img/pexels-frederik-sørensen-2404959.jpg" class="img-b" alt="...">
-                </div>
+<section class="product-page">
+    <div class="container">
+        <h1 class="h1-m">Comfortable sneakers for running</h1>
+        <h2 class="h1-m price">$2000</h2>
+        <div class="m-flex d-flex justify-content-center">
+            <div class="p-img">
+                <img src="./img/pexels-ray-piedra-1456737.jpg"" alt="">
             </div>
-
-            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-                <span aria-hidden="true"><i class="fas fa-chevron-left arr"></i></i></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-                <span aria-hidden="true"><i class="fas fa-chevron-right arr"></i></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-        <div class="shop-div">
-            <a class="btn shop" href="#shopping">Shop</a>
+            <div class=" second">
+                <h1 class="h1-d">Comfortable sneakers for running</h1>
+                <h2 class="h1-d price">$2000</h2>
+                <h4 class="quantity">QUANTITY</h4>
+                <div><i class=" minus fas fa-minus"></i><span class="mx-2">1</span><i class="plus fas fa-plus"></i>
+                </div>
+                <div class="b-flex d-flex justify-content-between">
+                    <a class="btn" href="">ADD TO CART</a>
+                    <a class="btn" href="">BUY IT NOW</a>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet numquam laborum perferendis aliquam amet illo dolorem culpa odit sequi facilis omnis exercitationem dolore, vitae a quos nostrum, quam molestiae. Tempora esse porro harum magni voluptatem alias praesentium in a atque ratione? Natus provident, temporibus soluta molestias eaque omnis corrupti minus!
+                </p>
+            </div>
         </div>
     </div>
 </section>
 
-<section id="shopping" class="shopping">
+<section id="shopping" class="shopping mb-5">
     <div class="container">
-        <h2 class="text-center mb-5">Our Shiny Shoes</h2>
+        <h2 class="text-center mb-5">YOU MAY ALSO LIKE</h2>
         <div class="c-flex d-flex justify-content-center flex-wrap">
             <div class="product">
                 <a href="product.php">
@@ -78,16 +73,6 @@
             </div>
 
         </div>
-    </div>
-</section>
-
-<section class="news">
-    <div class="container text-center">
-        <form>
-            <label class="mb-0" for="email">Sign up for the LOREM newsletter</label>
-            <input class="mx-3 p-1" type="text" name="email" id="email" placeholder="Email">
-            <input class="btn btn-dark" type="submit" name="submit" value="Join">
-        </form>
     </div>
 </section>
 
