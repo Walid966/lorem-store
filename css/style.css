@@ -6,6 +6,7 @@
 html,
 body {
   min-height: 100vh;
+  /* scroll-behavior: smooth; */
 }
 
 .wrap {
@@ -172,7 +173,8 @@ h3 {
 }
 
 .news {
-  margin-bottom: 100px;
+  margin-bottom: 200px;
+  /* margin-top: 50px; */
 }
 
 form .btn {
@@ -373,6 +375,14 @@ th {
 /* LOGIN END */
 
 @media (max-width: 900px) {
+  .login form {
+    padding: 20px;
+  }
+
+  .login h1 {
+    font-size: 30px;
+  }
+
   ul {
     background-color: #fff;
     align-items: flex-end;

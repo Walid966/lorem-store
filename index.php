@@ -26,7 +26,7 @@
             </a>
         </div>
         <div class="shop-div">
-            <a class="btn shop" href="#shopping">Shop</a>
+            <a id="shop" class="btn shop" href="#shopping">Shop</a>
         </div>
     </div>
 </section>

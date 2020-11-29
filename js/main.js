@@ -2,6 +2,15 @@
 //   $('[data-toggle="tooltip"]').tooltip()
 // })
 
+// smooth scroll
+$(".shop").click(function(e){       
+    e.preventDefault();
+    $('html,body').animate({scrollTop:$(this.hash).offset().top}, "slow");
+});
+// smooth scroll end
+
+
+// show/hide sign in
 $('#hover-link').mouseover(function() {
     $('#sign').css({
         'visibility': 'visible',
@@ -30,3 +39,4 @@ $('#sign').mouseout(function() {
         'opacity': '0'
     });
 });
+// show/hide sign in end
