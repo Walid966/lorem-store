@@ -55,11 +55,11 @@
             <div class="product">
                 <a href="product.php">
                     <div class="img-div">
-                        <img src="./img/pexels-ray-piedra-1456737.jpg" class="d-block w-100" alt="Nike shoes">
+                        <img src="./img/pexels-ray-piedra-1456705.jpg" class="d-block w-100" alt="Nike shoes">
                     </div>
                     <div class="d-flex justify-content-between">
                         <h4 class="px-2 pt-2">Nike</h4>
-                        <h4 class="px-2 pt-2">$1244</h4>
+                        <h4 class="px-2 pt-2">$500</h4>
                     </div>
                     <p class=" mb-2 px-2">Comfortable sneakers for running</p>
                 </a>
@@ -67,11 +67,11 @@
             <div class="product">
                 <a href="product.php">
                     <div class="img-div">
-                        <img src="./img/pexels-ray-piedra-1456737.jpg" class="d-block w-100" alt="Nike shoes">
+                        <img src="./img/pexels-ray-piedra-1478442.jpg" class="d-block w-100" alt="Nike shoes">
                     </div>
                     <div class="d-flex justify-content-between">
                         <h4 class="px-2 pt-2">Nike</h4>
-                        <h4 class="px-2 pt-2">$1244</h4>
+                        <h4 class="px-2 pt-2">$900</h4>
                     </div>
                     <p class=" mb-2 px-2">Comfortable sneakers for running</p>
                 </a>
